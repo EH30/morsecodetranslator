@@ -55,7 +55,7 @@ public class morsecodetranslator{
         console_clear();
 
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter: ");
+        System.out.print("Enter Morse Code: ");
         String stragrs = input.nextLine();
 
         String[] argstr = stragrs.split(" ");
